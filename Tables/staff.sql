@@ -7,7 +7,7 @@
   `email` VARCHAR(50) DEFAULT NULL,
   `store_id` TINYINT(3) UNSIGNED NOT NULL,
   `active` TINYINT(1) NOT NULL DEFAULT 1,
-  `username` VARCHAR(16) NOT NULL,
+  `username` VARCHAR(20) NOT NULL,
   `password` VARCHAR(40) BINARY CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL,
   `last_update` TIMESTAMP NOT NULL DEFAULT current_timestamp() ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (staff_id)
